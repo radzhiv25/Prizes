@@ -1,7 +1,7 @@
 # Assignment
 
 ## For Sorting prizes based on the given API
-### [Api Link]('https://api.nobelprize.org/v1/prize.json')
+### [Api Link](https://api.nobelprize.org/v1/prize.json)
 
 ## Techstack used: HTML, TailwindCSS and Vanilla Javascript
 
