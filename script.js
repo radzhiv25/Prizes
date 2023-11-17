@@ -13,13 +13,14 @@ async function prizeData(){
     console.log(newArr)
     newArr.forEach((year) => {
         const option = document.createElement('option')
-        option.textContent = newArr.filter((year) => year.year)
+        option.textContent = year.year
         yearOptionEl.appendChild(option)
-        if(year.year == year.year){
+        if(year.year == 2018 ){
             const p = document.createElement('p')
 
             for(let i = 0; i < year.laureates.length; i++){
                 p.textContent = year.laureates[i].firstname
+                p.classList.add('text-green-500')
                 showDataEl.appendChild(p)
             }
             console.log(year.laureates.firstname)
@@ -33,5 +34,3 @@ async function prizeData(){
     
 }
 prizeData()
-
-
